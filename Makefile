@@ -1,7 +1,7 @@
 GCC = gcc.exe
 NASM = nasm.exe
 OBJCOPY = objcopy.exe
-QEMU = qemu-system-i386.exe
+QEMU = "qemu-system-i386.exe"
 
 build:
 	$(GCC) -ffreestanding -c kernel.c -o kernel.o
